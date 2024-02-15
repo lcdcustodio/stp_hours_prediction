@@ -1,0 +1,9 @@
+parameter,category,status,meaning/value
+w_cluster,rh_domain,predictable,total OCP Cluster (Worker Cluster)
+h_cluster,rh_domain,predictable,total Hub Cluster (Mngmt Cluster)
+odf,rh_domain,predictable,0=No;1=Yes;2=Yes[External Ceph]
+acm,rh_domain,predictable,0=No;1=Yes
+acs,rh_domain,predictable,0=No;1=Yes
+quay,rh_domain,predictable,0=No;1=Yes
+virt_env,rh_domain,predictable,0=BareMetal;1=vSphere;2=RHV
+sla_cust,customer_behaviour,unpredictable,how long customer takes to reply (credentials;pre-reqs;...) in days
